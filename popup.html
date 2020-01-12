@@ -2,7 +2,15 @@
 <html>
   <head>
     <style>
-      
+      .container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 13% 13% 13% 13% 13% 13% 13% 9%;
+        grid-template-areas: 
+          "header header header header"
+          "main main . sidebar"
+          "footer footer footer footer";
+      }
     </style>
   </head>
   <body>
